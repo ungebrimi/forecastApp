@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer ></script>
+    <title>Bris</title>
+<head> 
+<body>
+    <header class="center">
+    </header>
+    <main class="container split center">
+        <section>
+            <h1>Sjekk været hos bris</h1>
+            <div class="search split-col">
+                    <input type="text" placeholder="Oslo" id="search-input">
+                    <button class="search__btn" id="search-submit">Søk</button>
+                </div>
+        </section>
+        <section class="weather container split-row">
+            <div class="weather__container split-col">
+                <h2 class="uppercase" id="location"></h2>
+                <div class="split-row weather__temperature-info">
+                    <img class="icon" id="icon"><p id="description"></p>
+                </div>
+                <div class="split-row temp">
+                    <h2 id="temperature"></h2> 
+                </div> 
+                <div class="weather__container-info">
+                    <p class="weather__temperature-humidity" id="humidity"></p>
+                    <p class="weather__temperature-wind" id="wind"></p>                
+                </div>            
+            </div>
+        </section>
+        <section class="forecast bg-dark flow">
+            <table cellpadding="0" cellpacing="0" border="0" class="forecast__table">
+                <caption>Været fremover</caption>
+                <thead>
+                    <tr>
+                        <th>Dato</th>
+                        <th>Vær</th>
+                        <th>Værbeskrivelse</th>
+                        <th>Temp</th>
+                        <th>Vind</th>
+                    </tr>
+                </thead>
+                <tbody id="tbody">                    
+                </tbody>
+            </table>
+        </section>         
+    </main>
+</body>
+</html>
