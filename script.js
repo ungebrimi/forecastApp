@@ -1,4 +1,4 @@
-import { gsap } from "../node_modules/gsap"
+//import { gsap } from "gsap"
 /**
  * Searchbar
  */
@@ -25,7 +25,6 @@ for (let tableRow of tableRows)
     })
 }
 */
-console.log(tableRows)
 
 const weather = {
     APIkey: '76aeffd51c52e2a8916aa011fde997e5',
