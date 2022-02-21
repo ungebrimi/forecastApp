@@ -31,7 +31,7 @@ const weather = {
     fetchWeather: function (city) 
     {
         fetch (
-            "http://api.openweathermap.org/data/2.5/weather?q="
+            "https://api.openweathermap.org/data/2.5/weather?q="
             + city
             + '&units=metric'
             + "&lang=no"
@@ -66,7 +66,7 @@ const forecast = {
     fetchForecast: function (city)
     {
         fetch(
-        "http://api.openweathermap.org/data/2.5/forecast?q="
+        "https://api.openweathermap.org/data/2.5/forecast?q="
         + city
         + "&units=metric"
         + "&lang=no"
