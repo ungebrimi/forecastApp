@@ -145,6 +145,7 @@ h1 {
 form {
   padding: 1.5rem;
   font-size: 0.8rem;
+  border-radius: 0;
 }
 
 input {
@@ -156,6 +157,7 @@ input {
 
 button {
   background-color: hsl(var(--clr-accent));
+  color: var(--clr-100);
   border: none;
   outline: none;
   font-family: inherit;
