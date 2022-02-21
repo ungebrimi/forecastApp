@@ -128,7 +128,7 @@ select {
 
 body {
     font-family: 'Poppins', sans-serif;
-    font-size: 1.2rem;
+    font-size: 1rem;
     background-image: url("/static/weather.jpg");
     background-size: cover;
     color: hsl(var(--clr-900));
@@ -144,12 +144,12 @@ h1 {
 
 form {
   padding: 1.5rem;
-  font-size: 0.8rem;
-  border-radius: 0;
+  font-size: 1rem;
+  border-radius: 0px;
 }
 
 input {
-  font-size: 0.9rem;
+  font-size: 1rem;
   padding: 0.5rem 0;
   outline: none;
   border: none;
@@ -213,12 +213,17 @@ button {
   justify-content: space-evenly;
 }
 
+.location
+{
+  font-size: 1rem;
+}
+
 .weather__container-info {
   font-size: 1.3rem;
 }
 
 .temp {
-  font-size: 2rem;
+  font-size: 1.6rem;
 }
 
 .weather__temperature {
